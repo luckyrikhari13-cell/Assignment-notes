@@ -9,24 +9,31 @@ Answer the user's question using up-to-date information from external sources.
 User
 
 ↓
+
 Rewrite search query
 
 ↓
+
 Search external source
 
 ↓
+
 Retrieve documents
 
 ↓
+
 Filter and rank documents
 
 ↓
+
 Create context
 
 ↓
+
 Generate final answer
 
 ↓
+
 Stream answer to the frontend
 
 
