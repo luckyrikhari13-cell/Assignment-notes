@@ -7,20 +7,28 @@ Answer the user's question using up-to-date information from external sources.
 ## Flow
 
 User
+
 ↓
 Rewrite search query
+
 ↓
 Search external source
+
 ↓
 Retrieve documents
+
 ↓
 Filter and rank documents
+
 ↓
 Create context
+
 ↓
 Generate final answer
+
 ↓
 Stream answer to the frontend
+
 
 ## Why two LLM calls?
 
