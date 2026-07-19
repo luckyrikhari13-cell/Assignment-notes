@@ -63,3 +63,49 @@ emitter.on("data", callback)
 ```
 
 will receive `chunk`.
+
+## Common Streaming Events
+
+```ts
+emitter.emit("data", chunk);
+```
+
+Sent whenever new streamed data arrives.
+
+---
+
+```ts
+emitter.emit("end");
+```
+
+Sent once when streaming finishes successfully.
+
+---
+
+```ts
+emitter.emit("error", error);
+```
+
+Sent if streaming fails.
+
+Typical event flow:
+
+Success:
+
+data
+
+↓
+
+data
+
+↓
+
+end
+
+Failure:
+
+data
+
+↓
+
+error
